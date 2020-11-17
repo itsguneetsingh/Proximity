@@ -1,0 +1,8 @@
+Hotspot:-
+
+netsh wlan set hostednetwork mode=allow ssid=Proximity key=pL&rBsB8#-*6$Tc_
+NETSH WLAN start hostednetwork
+
+Wi-Fi:-
+netsh wlan show profile		(To show all the wifi signals around me)
+netsh wlan connect ssid=THE_HOTSPOT_SSID name=PROFILE_NAME interface=Wi-Fi	(To connect to the Wi-Fi)
